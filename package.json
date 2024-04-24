@@ -1,5 +1,5 @@
 {
-  "name": "orio-user-app",
+  "name": "orio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
