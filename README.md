@@ -1,27 +1,59 @@
-# OrioUserApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+# Orio Front
 
-## Development server
+## Introduction
+Orio a été créée pour aider les lycéens à prendre des décisions éclairées concernant leur orientation et leur avenir professionnel.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Images](orio.png)
 
-## Code scaffolding
+Dans un nouvel élan d'innovation, le projet Orio est repris à zéro, avec une approche collaborative et open source. Cette décision vise à tirer parti des contributions diverses et à créer le projet de manière collective.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Parmi les fonctionnalités clés de l'application à venir :
+- 559 fiches métier complètes pour une exploration approfondie.
+- Un quizz interactif amusant pour découvrir les affinités professionnelles.
+- Des mises à jour régulières avec de nouvelles fonctionnalités et des métiers ajoutés.
+- Une interface conviviale pour une expérience utilisateur optimale.
+- Possibilité de personnaliser et adapter l’application aux besoins des utilisateurs.
 
-## Build
+Cette transition vers un modèle de développement open source renforcera la robustesse de l'application Orio et permettra une évolution continue grâce à la collaboration variée.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Le développement d'Orio se déroulera en quatre parties distinctes : l'API, la version web, l'application mobile et le panneau administrateur. Chaque aspect sera pris en charge pour garantir une expérience complète et adaptée aux différents besoins des utilisateurs.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Projet Information
 
-## Running end-to-end tests
+- **Angular:** 17
+- **Bootstrap:** 5.3.2
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Structure des Dossiers
 
-## Further help
+- component/ : Ce dossier contient tous les composants de l'application. Les composants sont organisés par fonctionnalité ou par utilisation. Les composants partagés (réutilisables dans toute l'application) sont placés dans le dossier shared/.
+- service/ : Ce dossier contient les services Angular utilisés pour la logique métier. Ces services peuvent être injectés dans les composants pour effectuer des opérations spécifiques.
+- model/ : Ce dossier comprend les modèles de données utilisés dans l'application. Ces modèles représentent la structure des objets manipulés par les services.
+- util/ : Ce dossier contient les utilitaires ou helpers partagés utilisés à travers l'application pour des tâches génériques telles que la manipulation de dates, les fonctions de formatage, etc.
+- asset/ : Ce dossier contient les fichiers statiques tels que les images, les fichiers CSS et autres ressources utilisées dans l'application.
+- environment/ : Ce dossier contient les fichiers de configuration d'environnement pour différentes configurations (par exemple, développement, production).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Lancer le projet
+
+1) Clonage du Projet
+```xml
+git clone https://github.com/votre-utilisateur/nom-du-projet.git
+```
+
+2) Installation des Dépendances (Assurez-vous d'avoir Node.js et npm installés sur votre machine.)
+```xml
+cd /nom-du-dossier
+npm install
+```
+
+3) Lancement de l'Application
+```xml
+ng serve --open
+```
+
+4) Génération de Composants ou de Services
+```xml
+ng generate component component/nom-du-composant
+ng generate service service/nom-du-service
+```
