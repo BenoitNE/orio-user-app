@@ -1,0 +1,15 @@
+#img-orio {
+  width: 300px;
+}
+
+/*.container {
+  background: repeating-radial-gradient(#ffffff, #d6edf8 100%);
+}*/
+
+.main-title {
+  font-family: coolvetica;
+}
+
+.row {
+  height: 100vh;
+}
