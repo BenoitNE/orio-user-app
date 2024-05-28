@@ -1,10 +1,18 @@
 <div class="container">
     <div class="row justify-content-center align-items-center">
       <div class="col-md-6 text-center">
-        <img [src]="avatarPath" id="img-orio" alt="Avatar Orio Intro">
+
         <h1 class="main-title mt-4 mb-3">Trouvez la voie qui vous correspond avec Orio</h1>
-        <p>Cliquez sur "Commencer" pour passer le test et découvrez des métiers qui pourraient vous plaire.</p>
-        <button class="btn btn-primary btn-lg mt-5 mb-3" (click)="startButtonClick()">Commencer</button>
+        <img [src]="avatarPath" id="img-orio" alt="Avatar Orio Intro">
+        
+
+        <p>Cliquez sur <span class="important">"Commencer"</span> pour passer le test et découvrez des métiers qui pourraient vous plaire. <br/>
+        Cliquez sur <span class="important">"Rechercher"</span> pour trouver un métier par nom ou par thématique.</p>
+
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg mt-4 mb-3" (click)="startButtonClick()">Commencer</button>
+          <button class="btn btn-outline-primary btn-lg mt-4 mb-3" (click)="researchButtonClick()">Rechercher</button>
+        </div>
         <p>{{ version }}</p>
       </div>
     </div>

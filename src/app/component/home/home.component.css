@@ -2,14 +2,34 @@
   width: 300px;
 }
 
-/*.container {
-  background: repeating-radial-gradient(#ffffff, #d6edf8 100%);
-}*/
-
 .main-title {
   font-family: coolvetica;
+}
+
+img {
+  margin: 3% 0%;
 }
 
 .row {
   height: 100vh;
 }
+
+.important {
+  font-weight: bold;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.btn:active, .btn:hover, .btn:focus{
+  background-color: rgb(0, 9, 107);
+}
+
