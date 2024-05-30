@@ -19,4 +19,8 @@ export class HomeComponent {
   startButtonClick(): void {
     this.router.navigate([RoutingUtil.jobDescriptionStudyDurationForm]);
   }
+
+  researchButtonClick():void {
+    // TODO: Mettre le lien vers la page de recherche
+  }
 }
